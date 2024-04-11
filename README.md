@@ -1,1 +1,1 @@
-# circuitpython_xiao_round_display_touch
+Seeed XIAO Round Display Touch Driver for Circuitpython
