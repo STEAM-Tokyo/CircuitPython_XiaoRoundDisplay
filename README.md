@@ -10,6 +10,14 @@ You can set the screen rotation by 90 degrees.
 ## Installation
 Simply copy the CircuitPython_XiaoRoundDisplay.py to the lib folder of your board.
 
+## Dependencies
+Requires following libraries.
+  adafruit_bus_device
+  adafruit_register
+  gc9a01 (distributed in the community bundle)
+
+[CircuitPython.org](https://circuitpython.org/libraries/)
+
 ## Usage example
 
 ```py
@@ -66,6 +74,14 @@ while True:
 
 ## インストール
 本レポジトリのCircuitPython_XiaoRoundDisplay.pyをCircuitPythonがインストールされたマイコンにコピーしてください。
+
+## 依存関係
+下記CircuitPythonライブラリのインストールが必要です。
+  adafruit_bus_device
+  adafruit_register
+  gc9a01 (Community Bundleに含まれています。)
+
+[ライブラリ配布元](https://circuitpython.org/libraries/)
 
 ## 使い方の例
 ```py
