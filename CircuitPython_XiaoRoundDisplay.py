@@ -1,3 +1,18 @@
+#Author: Mitsuharu Aoyama
+#Date: May 2024
+
+# Dependencies:
+#   adafruit_register
+#   gc9a01
+#   adafruit_bus_device
+
+# Hardware:
+# Round Display for XIAO
+
+
+# Round Display for XIAO has CHSC6540 capacitive touch controller.
+# Datasheet: https://szzxv.com/static/upload/file/20220301/1646141990530969.pdf
+
 import board
 import digitalio
 import displayio
@@ -5,10 +20,15 @@ import gc9a01
 from adafruit_register import i2c_bit
 from adafruit_bus_device.i2c_device import I2CDevice
 
-# Dependencies
+#Author: Mitsuharu Aoyama
+#Date: May 2024
+
+# Dependencies:
 #   adafruit_register
 #   gc9a01
 #   adafruit_bus_device
+
+# Hardware:
 
 # Round Display for XIAO has CHSC6540 capacitive touch controller.
 # Datasheet: https://szzxv.com/static/upload/file/20220301/1646141990530969.pdf
