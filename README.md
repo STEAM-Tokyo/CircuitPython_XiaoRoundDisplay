@@ -12,9 +12,9 @@ Simply copy the CircuitPython_XiaoRoundDisplay.py to the lib folder of your boar
 
 ## Dependencies
 Requires following libraries.
-  adafruit_bus_device
-  adafruit_register
-  gc9a01 (distributed in the community bundle)
+- adafruit_bus_device
+- adafruit_register
+- gc9a01 (distributed in the community bundle)
 
 [CircuitPython.org](https://circuitpython.org/libraries/)
 
@@ -77,9 +77,9 @@ while True:
 
 ## 依存関係
 下記CircuitPythonライブラリのインストールが必要です。
-  adafruit_bus_device
-  adafruit_register
-  gc9a01 (Community Bundleに含まれています。)
+- adafruit_bus_device
+- adafruit_register
+- gc9a01 (Community Bundleに含まれています。)
 
 [ライブラリ配布元](https://circuitpython.org/libraries/)
 
