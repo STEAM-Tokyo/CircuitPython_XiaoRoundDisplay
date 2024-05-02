@@ -26,7 +26,7 @@ rotation = 0  # 0, 90, 180 or 270 degree
 xrd = XiaoRoundDisplay(i2c, spi, rotation)
 screen = xrd.display()  # Screen object
 
-# displaytio settings
+# displayio settings
 bitmap = displayio.Bitmap(screen.width, screen.height, 2)
 
 # Create a two color palette
