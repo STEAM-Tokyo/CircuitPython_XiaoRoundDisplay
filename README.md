@@ -4,7 +4,7 @@
 <img src="https://files.seeedstudio.com/wiki/round_display_for_xiao/rounddisplay.jpg" width="600">
 
 ## Installation
-Simply copy the Xiao_Round_Display_Touch.py to the lib folder of your board.
+Simply copy the CircuitPython_XiaoRoundDisplay.py to the lib folder of your board.
 
 ## Usage example
 
