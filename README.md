@@ -1,3 +1,5 @@
+日本語の説明文は下のほうにあります。
+
 # Round Display for XIAO Touch Driver for CircuitPython
 [Seeed Studio Round Display for XIAO](https://wiki.seeedstudio.com/get_start_round_display/) has GC9A01 LCD with the capacitive touch function.
 By using this CircuitPython driver, you can create the display object and also get the touched (X, Y) coordinates.
