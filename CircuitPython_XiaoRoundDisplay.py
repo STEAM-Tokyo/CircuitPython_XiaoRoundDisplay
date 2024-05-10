@@ -107,15 +107,19 @@ class XiaoRoundDisplay():
 
     def touch_read(self):
         if self._irq and not self._irq.value:
-            self.i2c_dev = I2CDevice(self._i2c, CHSC6540_I2C_ADDRESS)
-            with self.i2c_dev:
-                self.i2c_dev.readinto(self._buffer)
+            try:
+                self.i2c_dev = I2CDevice(self._i2c, CHSC6540_I2C_ADDRESS)
+                with self.i2c_dev:
+                    self.i2c_dev.readinto(self._buffer)
 
-            results = [i for i in self._buffer]
-            
-            if results[0]:  # first byte is non-zero when touched
-                x = results[2]  # 3rd byte is x
-                y = results[4]  # 5th byte is y
-                x1, y1 = self.rotate(x, y)
-                return x1, y1  # Return (x1, y1) tuple
-            return None
+                results = [i for i in self._buffer]
+                
+                if results[0]:  # first byte is non-zero when touched
+                    x = results[2]  # 3rd byte is x
+                    y = results[4]  # 5th byte is y
+                    x1, y1 = self.rotate(x, y)
+                    return x1, y1  # Return (x1, y1) tuple
+                return None
+            except:
+                # print("touching too fast!")
+                pass
